@@ -1,0 +1,63 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PC company</title>
+  <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="mapa-estilo-agr.css">
+</head>
+<style>
+  .imagen-icon img {
+    width: 18%;
+    height: 25%;
+  }
+</style>
+<center>
+  <div class="imagen-icon">
+    <img src="img/logo.png">
+  </div>
+</center>
+
+<body class="fondo" style="background-image:url(img/fondo.jpg); ">
+</body>
+<div class="texto2">
+  <br><br>
+  <h2>Agregar PC</h2>
+</div>
+<center>
+  <div class="text">
+    <form action="agregar.php" method="POST">
+
+      <br><br><br>
+      <label for="ID" class="placeholder">ID</label>
+      <input id="ID" name="ID" class="input" type="number" placeholder="ID" value="" required /><br>
+
+      <label for="Procesador" class="placeholder">Procesador</label>
+      <input id="Procesador" name="Procesador" class="input" type="text" placeholder="Procesador" value=""
+        required /><br>
+
+      <label for="Almacenamiento" class="placeholder">Almacenamiento</label>
+      <input id="Almacenamiento" name="Almacenamiento" class="input" type="text" placeholder="Almacenamiento" value=""
+        required /><br>
+
+      <label for="RAM" class="placeholder">RAM</label>
+      <input id="RAM" name="RAM" class="input" type="text" placeholder="RAM" value="" required /><br>
+
+      <label for="GPU" class="placeholder">GPU</label>
+      <input id="GPU" name="GPU" class="input" type="text" placeholder="GPU" value="" required /><br>
+
+      <label for="SO" class="placeholder">SO</label>
+      <input id="SO" name="SO" class="input" type="text" placeholder="SO" value="" required /><br>
+      <br><br><br>
+      <button type="text" class="submit" value="ID" id="Agregar" name="Agregar">Agregar</button>
+    </form><br>
+    <form action="index.html" method="POST">
+      <button type="text">Regresar</button>
+    </form>
+  </div>
+</center>
+</body>
+
+</html>

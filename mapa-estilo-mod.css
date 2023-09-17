@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'open sans';
+}
+
+.fondo {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.texto2 {
+    text-align: center;
+    color: white;
+}
+
+.text {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    background: darkorange;
+    border-radius: 10%;
+    width: 25%;
+    height: 40%;
+}
